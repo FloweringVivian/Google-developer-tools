@@ -12,13 +12,13 @@ B：操作dom样式、结构、事件的显示面板
 
 （1）点击箭头选中一个元素，可以在HTML面板中定位到该元素，并且可以在右侧styles面板中查看和编辑该元素的样式，编辑时，效果可以实时更新，这对于前端工程师解决样式问题是个大大的福利，在HTML面板中ctrl+F，可以对html中的内容进行搜索。
 
-![](C:\Users\Administrator\Desktop\images\elements-1.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-1.png)
 
 
 
 （2）在右侧Computed面板中，可以查看对应元素的盒图和该元素上最终生效的样式（包含继承父级元素的样式和自己的样式）
 
-![](C:\Users\Administrator\Desktop\images\elements-2.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-2.png)
 
 
 
@@ -30,19 +30,19 @@ handler里面包含事件的回调主体内容
 
 useCapture表示该事件是否向上冒泡
 
-![](C:\Users\Administrator\Desktop\images\elements-3.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-3.png)
 
 
 
 还有一个方法，如果想要找到一个元素绑定的事件，我喜欢用google浏览器的search all files，搜索元素的id或class，从而找到该元素在js中绑定的事件，如下图：
 
-![](C:\Users\Administrator\Desktop\images\elements-4.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-4.png)
 
 
 
 （4）在HTML面板中选中一个元素，鼠标右键点击，会看到一个弹窗，里面有若干选项：
 
-![](C:\Users\Administrator\Desktop\images\elements-5.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-5.png)
 
 * Add attribute : 为该元素添加属性 
 
@@ -56,13 +56,10 @@ useCapture表示该事件是否向上冒泡
 
   针对Break on的示例如下：
 
-  ![](C:\Users\Administrator\Desktop\images\elements-6.png)
-
+  ![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-6.png)
   
 
 勾选Break on -> Node removal，在B界面切换到DOM Breakpoints 选项，可以看到有注册信息。然后我们点击click me按钮触发删除div3的事件，可以看到浏览器自动为我们定位删除该元素的代码部分，并且停止执行js代码。 
-
-（以账号设置为例和康会来软锁模板确定按钮不能点击进行演示）
 
 
 
@@ -82,7 +79,7 @@ Cookies（该请求带的cookies）
 
 Timing（请求时间变化） 
 
-![](C:\Users\Administrator\Desktop\images\elements-8.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-8.png)
 
 
 
@@ -90,7 +87,7 @@ Timing（请求时间变化）
 
 Application部分较简单，其中Frames主要向我们展示了本界面所加载的资源列表。还可以看到cookie和local storage 、session storage 等本地存储信息，在这里，我们可以自由地修改、增加、删除本地存储 。
 
-![](C:\Users\Administrator\Desktop\images\elements-9.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-9.png)
 
 
 
@@ -100,7 +97,7 @@ Application部分较简单，其中Frames主要向我们展示了本界面所加
 
 Sources面板几乎是前端开发工程师最常用到的功能面板，也是在我看来决解一般问题的主要功能面板。通常只要是开发遇到了js报错或者其他代码问题，在审视一遍自己的代码而一无所获之后，就会打开Sources进行js断点调试，而它也几乎能解决我80%的代码问题。 
 
-![](C:\Users\Administrator\Desktop\images\elements-10.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-10.png)
 
 左侧双击某个js，在右侧的行号上点击进行打断点，上图中的1~6分别代表：
 
@@ -122,7 +119,7 @@ Sources面板几乎是前端开发工程师最常用到的功能面板，也是�
 
 当你的项目已经线上，出现了一个bug，你修复了之后无法看到它真正在线上的效果，那么你可以在打开线上的项目，直接在浏览器中修改代码然后看到效果。这样的效果往往是最直接的，这种方法也能帮你省去频繁验证发布的麻烦，毕竟身为前端码农的你也一定会听到过后台（通常情况下是后台发布）大哥的抱怨：“XXX，测试通过了没，不要出现了哈，发布一次很麻烦的！”。而在谷歌浏览器打断点的文件中直接修改，你就可以验证你的代码在线上是否可行。 
 
-![](C:\Users\Administrator\Desktop\images\elements-11.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-11.png)
 
 即使在断点时，你也可以编辑代码，按ctrl+S保存之后，你会看到断点区域的背景由白色变为浅色，而断点会重新开始执行 ，此时你就可以验证改的bug是否生效。
 
@@ -132,7 +129,7 @@ Sources面板几乎是前端开发工程师最常用到的功能面板，也是�
 
 Audits面板会针对目前网页提出若干条优化的建议，这些建议分为两大类，一类是网络加载性能，另一类是界面性能。首先打开它的主界面。 
 
-![](C:\Users\Administrator\Desktop\images\elements-12.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-12.png)
 
 
 
@@ -170,7 +167,7 @@ Audits面板会针对目前网页提出若干条优化的建议，这些建议�
 
 点击run，进行测试（以开发者网站和计费中心充值进行演示）
 
-![](C:\Users\Administrator\Desktop\images\elements-13.jpg)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-13.jpg)
 
 
 
@@ -186,7 +183,7 @@ Audits面板会针对目前网页提出若干条优化的建议，这些建议�
 
 点击elements左侧小手机的图标，即可进入移动开发模式，并不能完全模拟出手机的真实情况（比如手机会弹出软键盘，引起兼容问题）
 
-![](C:\Users\Administrator\Desktop\images\elements-14.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-14.png)
 
 
 
@@ -196,7 +193,7 @@ Audits面板会针对目前网页提出若干条优化的建议，这些建议�
 
 加载性能分析：
 
-![](C:\Users\Administrator\Desktop\images\elements-15.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-15.png)
 
 
 
@@ -210,7 +207,7 @@ Audits面板会针对目前网页提出若干条优化的建议，这些建议�
 
 执行性能分析（有待深入研究）：
 
-![](C:\Users\Administrator\Desktop\images\elements-16.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-16.png)
 
 
 
@@ -218,7 +215,7 @@ Audits面板会针对目前网页提出若干条优化的建议，这些建议�
 
 #### 1. **(FeHelper)WEB前端助手** 
 
-![](C:\Users\Administrator\Desktop\images\elements-17.png)
+![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-17.png)
 
 
 
