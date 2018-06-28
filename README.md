@@ -12,7 +12,7 @@ B：操作dom样式、结构、事件的显示面板
 
 （1）点击箭头选中一个元素，可以在HTML面板中定位到该元素，并且可以在右侧styles面板中查看和编辑该元素的样式，编辑时，效果可以实时更新，这对于前端工程师解决样式问题是个大大的福利，在HTML面板中ctrl+F，可以对html中的内容进行搜索。
 
-![](https://github.com/FloweringVivian/addLicensePlate/blob/master/images/elements-1.png)
+![](https://github.com/FloweringVivian/Google-developer-tools/blob/master/images/elements-1.png)
 
 
 
